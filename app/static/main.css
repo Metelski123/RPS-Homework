@@ -1,6 +1,10 @@
 body {
-
     font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+}
+
+header {
+    background-color: yellow;
 }
 
 body > header {
@@ -10,21 +14,5 @@ body > header {
     font-weight:bold;
     background-color: rgb(243, 243, 89);
     color: #F08080;
-
     
-}
-
-nav > ul {
-    list-style: none;
-
-}
-
-
-body > section > nav > ul > li > a {
-    color: #F08080;
-
-}
-
-body {
-    background-image: url (rps.jpg);
 }
