@@ -6,10 +6,9 @@ from app.models.player import Player
 class TestGame(unittest.TestCase):
 
     def setUp(self):
-        self.player1 = Player('Amy', "rock")
-        self.player2 = Player('Bob', 'scissors')
-        self.banana = Player("matt", "paper")
-        self.game = Game("Amy", "Bob")
+        self.player1 = Player('Jan', "rock")
+        self.player2 = Player('Jessica', 'scissors')
+        self.game = Game("Jan", "Jessica")
 
 
     def test_game_output(self):

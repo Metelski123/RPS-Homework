@@ -1,5 +1,18 @@
-body > header {
-    background-color:rgb(243, 243, 89);
-    color: #F08080;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+}
 
+header {
+    color: yellow;
+}
+
+body > header {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 1px 3px 0px;
+    font-weight:bold;
+    background-color: rgb(243, 243, 89);
+    color: #F08080;
+    
 }

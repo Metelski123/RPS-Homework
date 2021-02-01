@@ -5,16 +5,16 @@ from app.models.game import Game
 
 class TestPlayer(unittest.TestCase):
     def setUp(self):
-        self.player1 = Player("Amy", "rock")
-        self.player2 = Player("Bob", "scissors")
+        self.player1 = Player("Jan", "rock")
+        self.player2 = Player("Jessica", "scissors")
 
 
     def test_check_player1_name(self):
-        self.assertEqual("Amy", self.player1.name)
+        self.assertEqual("Jan", self.player1.name)
 
 
     def test_check_player2_name(self):
-        self.assertEqual("Bob", self.player2.name)
+        self.assertEqual("Jessica", self.player2.name)
 
 
     def test_check_player1_choice(self):
